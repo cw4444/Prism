@@ -108,4 +108,7 @@ To start it again later, just repeat Steps 2, 4, and 5. You don't need to instal
 Built with React + Vite. Have fun ruining your Saturday with the multiverse.
 
 ## License
-This software is currently not licensed for commercial use. If you’d like to use this in a business setting or install it professionally, please contact me at cw4444@gmail.com
+
+This project is proprietary. You may not use, copy, modify, redistribute, deploy, or install it for commercial or client use without prior written permission.
+
+Commercial licenses are available. For business use, professional installation, or deployment enquiries, contact: **cw4444@gmail.com**
