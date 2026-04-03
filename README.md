@@ -1,5 +1,7 @@
 # Prism - Alternate Timeline Explorer
 
+Live Demo: https://prism-one-swart.vercel.app/
+
 Ever wonder what would have happened if you'd said yes instead of no? Taken the other job? Sent that text? This app lets you write about something that happened to you and then shows you **5 alternate versions of reality** where things went differently. Some are only slightly different. Some go completely off the rails.
 
 Inspired by the "Prism" device in Ted Chiang's short story *"Anxiety Is the Dizziness of Freedom"*.
