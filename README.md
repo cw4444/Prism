@@ -17,7 +17,7 @@ Inspired by the "Prism" device in Ted Chiang's short story *"Anxiety Is the Dizz
    - **Anthropic** (the Claude people) — sign up at https://console.anthropic.com, go to API Keys, and create one. It'll look like `sk-ant-...`
 
    These cost a tiny amount per use (a few pence per diary entry). You'll need to add credit to your account.
-   Your key is entered in the app and stored in your browser only. Do not put API keys into Vercel env vars for this project, because Vite client variables are bundled into the public site.
+   Your key is entered in the app and sent only to Prism's own API routes for that request. Do not put API keys into Vercel env vars for this project, because Vite client variables are bundled into the public site.
 
 ---
 
@@ -106,7 +106,7 @@ To start it again later, just repeat Steps 2, 4, and 5. You don't need to instal
 
 **"API error"** — Double-check your API key is correct and that you have credit on your OpenAI/Anthropic account.
  
-**Deploying on Vercel** — This app is safe to deploy as a static frontend as long as you leave API keys out of Vercel environment variables and let users enter their own keys in the app.
+**Deploying on Vercel** — This app uses serverless API routes under `/api/*` to keep provider calls off the browser. Leave API keys out of Vercel environment variables and let users enter their own keys in the app.
 
 ---
 
